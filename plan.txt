@@ -1,0 +1,33 @@
+TWO SETS OF MESSAGING SERVICES:
+    
+    - MOBILE ANNOUNCER:
+
+        - INFORMATION FOR CLASS:
+            
+            - Date
+            - Urgency
+            - Head/Title
+            - Body
+
+            Example of a phone message format
+
+            20/08/2021
+
+            IMPORTANT ANNOUNCEMENT
+
+            The club has had a positive COVID-19 case for the evening.
+            Please make sure to test your children and if any symptoms
+            occur, then do not bring your child in.
+
+            Thank You,
+                      Oasis Academy Hobmoor
+
+
+
+
+
+
+
+    - EMAIL ANNOUNCER:
+
+        -
