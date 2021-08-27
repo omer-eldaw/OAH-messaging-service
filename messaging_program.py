@@ -1,9 +1,10 @@
 import os
 from twilio.rest import Client
 from datetime import date
+from openpyxl.workbook import Workbook
+from openpyxl import load_workbook
 
-class MobileAnnouncer(object):
-    
+class MobileAnnouncer():
     def __init__(self, list_of_nums):
         
         self.list_of_nums = list_of_nums
@@ -45,6 +46,8 @@ class MobileAnnouncer(object):
                 from_="+447888871147",
                 to={num}
             )
+        
+        
 
 
 

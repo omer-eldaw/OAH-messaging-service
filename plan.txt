@@ -1,5 +1,6 @@
 TWO SETS OF MESSAGING SERVICES:
     
+    DONE
     - MOBILE ANNOUNCER:
 
         - INFORMATION FOR CLASS:
@@ -22,12 +23,13 @@ TWO SETS OF MESSAGING SERVICES:
             Thank You,
                       Oasis Academy Hobmoor
 
-
-
-
-
-
-
+    FINISH LATER
     - EMAIL ANNOUNCER:
 
         -
+
+    NEARLY DONE
+    - EXCEL SHEET LOADER
+
+    NEARLY DONE
+    - FINISH THE GUI FOR THE PROGAM 
