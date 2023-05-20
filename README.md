@@ -1,2 +1,2 @@
 # OAH-messaging-service
-Used to send posts, announcements or urgent matters through email or phone message to parents.
+Used to send posts, announcements or urgent matters through SMS to parents.

@@ -3,15 +3,16 @@ from datetime import date
 from openpyxl import load_workbook
 
 class MobileAnnouncer():
+    global phone_number
+    phone_number = "+12707389977"
 
     def __init__(self, list_of_nums):
         
         self.list_of_nums = list_of_nums
 
-        account = "ACee20a96f5c0e98c713a5b0bcaf372180"
-        token = "fe765b3b83a17c72e79bc9626d6be8f2"
+        account = "AC3785333a26e0602c665cda119a72a594"
+        token = "e32cb19a65c6cf3ddf469a2f02b85cda"
         self.client = Client(account, token)
-
         today = date.today()
         self.day_today = today.strftime("%d/%m/%Y")
 
@@ -21,7 +22,7 @@ class MobileAnnouncer():
         for num in self.list_of_nums:
             message = self.client.messages.create(
                 body=f"{self.day_today}\n\n{self.body_message}\n\nThank You,\nOasis Community Hub Hobmoor",
-                from_="+447888871147",
+                from_=phone_number,
                 to={num}
             )
 
@@ -31,7 +32,7 @@ class MobileAnnouncer():
         for num in self.list_of_nums:
             message = self.client.messages.create(
                 body=f"{self.day_today}\n\nIMPORTANT ANNOUNCEMENT\n\n{self.body_message}\n\nThank You,\nOasis Community Hub Hobmoor",
-                from_="+447888871147",
+                from_=phone_number,
                 to={num}
             )
         
@@ -42,7 +43,7 @@ class MobileAnnouncer():
         for num in self.list_of_nums:
             message = self.client.messages.create(
                 body=f"{self.day_today}\n\nEVENT\n\n{self.body_message}\n\nThank You,\nOasis Community Hub Hobmoor",
-                from_="+447888871147",
+                from_=phone_number,
                 to={num}
             )
 
