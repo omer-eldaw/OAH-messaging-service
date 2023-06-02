@@ -50,7 +50,7 @@ class mainProgram(Tk):
     
     def select_excel_file(self):
         filetypes = (('Excel Files', '*.xlsx'), ('All Files', '*.*'))
-        filename = fd.askopenfilename(title = 'Open a file', initialdir = '/', filetypes = filetypes)
+        filename = fd.askopenfilename(title = 'Open a file', initialdir = 'C:\Program Files', filetypes = filetypes)
         mb.showinfo(title="Selected File", message=filename)
         Scraper = excelScraper(filename)
         self.num_list = Scraper.retrieveNumbers()
